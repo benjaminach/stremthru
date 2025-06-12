@@ -1,1 +1,1 @@
-web: stremthru -a
+web: go run main.go

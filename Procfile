@@ -1,1 +1,1 @@
-web: stremthru
+web: stremthru -a

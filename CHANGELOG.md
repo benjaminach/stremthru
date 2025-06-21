@@ -1,5 +1,48 @@
 # Changelog
 
+## [0.79.3](https://github.com/MunifTanjim/stremthru/compare/0.79.2...0.79.3) (2025-06-21)
+
+
+### Bug Fixes
+
+* **anime:** return early for emtpy bulk record id maps ([c00341d](https://github.com/MunifTanjim/stremthru/commit/c00341da4347f7008e0d28a79a68932b652f7a45))
+* **stremio:** show file size in default template ([848d9bb](https://github.com/MunifTanjim/stremthru/commit/848d9bb4939425395266b75a5bdc9051ff043557))
+
+## [0.79.2](https://github.com/MunifTanjim/stremthru/compare/0.79.1...0.79.2) (2025-06-16)
+
+
+### Bug Fixes
+
+* **stremio/list:** unmarshal trakt.tv popular list response properly ([86c6e47](https://github.com/MunifTanjim/stremthru/commit/86c6e47ed2b213bed234c7e1920636c1a55258dc))
+
+## [0.79.1](https://github.com/MunifTanjim/stremthru/compare/0.79.0...0.79.1) (2025-06-14)
+
+
+### Bug Fixes
+
+* **torznab:** add missing imdb id for search by query ([92a2b43](https://github.com/MunifTanjim/stremthru/commit/92a2b4365a9d8ea78b9002edbef30fe6a9dcdadd))
+
+## [0.79.0](https://github.com/MunifTanjim/stremthru/compare/0.78.4...0.79.0) (2025-06-14)
+
+
+### Features
+
+* **buddy:** support lazy pull for check magnet ([cdca861](https://github.com/MunifTanjim/stremthru/commit/cdca86122dd08ac54e1585cd677ce44a9df6401a))
+* **store:** skip valid subs check for request from trusted peer ([c145c1c](https://github.com/MunifTanjim/stremthru/commit/c145c1c58ecaaf733fc2f324e0776e1846ceb973))
+* **worker:** keep item in queue if processor returns error ([5044130](https://github.com/MunifTanjim/stremthru/commit/50441304392a7dcd00f4e4fdbaea93c240a572dc))
+
+
+### Bug Fixes
+
+* **imdb_title:** fix typo in sqlite search ids func ([c5be5d1](https://github.com/MunifTanjim/stremthru/commit/c5be5d1ee2b1520d37f0806c3e924b2f78975222))
+
+## [0.78.4](https://github.com/MunifTanjim/stremthru/compare/0.78.3...0.78.4) (2025-06-13)
+
+
+### Bug Fixes
+
+* **store/premiumize:** fix add magnet for cached contents ([526dc59](https://github.com/MunifTanjim/stremthru/commit/526dc598a59fe4cf7eb9448b0e1498b270b0f7c5))
+
 ## [0.78.3](https://github.com/MunifTanjim/stremthru/compare/0.78.2...0.78.3) (2025-06-11)
 
 
